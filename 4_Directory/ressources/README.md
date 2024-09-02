@@ -12,7 +12,7 @@ The htpasswd file contained an MD5 hash.
 I identified that this hash translates to the password qwerty123@ using an MD5 hash decoder. This password is associated with the root user. I used this information to access the system and find a flag, demonstrating a security vulnerability.
 
 To enhance my directory enumeration, I downloaded an updated wordlist for Gobuster using the following wget command:
-    wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-medium.txt -P /usr/share/wordlists/dirbuster/
+    wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-medium.txt -P /your/download/address
 
 
 ### Solution:
