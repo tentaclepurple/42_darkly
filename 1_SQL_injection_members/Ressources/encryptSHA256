@@ -1,0 +1,1 @@
+echo "fortytwo" | sha256sum
