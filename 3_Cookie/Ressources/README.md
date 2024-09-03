@@ -17,14 +17,9 @@ Changing the cookie value to b326b5062b2f0e69046810717534cb09 could make the app
 
 ### How to Prevent This Vulnerability
 
-Do Not Rely on Cookies for Authorization:
-
-    Cookies should not store sensitive or critical information like user roles or privileges that can be easily modified by the client.
-
-Use Secure Tokens:
-
-    Implement secure tokens, such as signed JWTs (JSON Web Tokens), which include integrity checks to prevent tampering.
-
-Encrypt Sensitive Data:
-
-    Avoid using weak hashes like MD5 for sensitive data. Use stronger algorithms like SHA-256 and always combine them with a salt to prevent dictionary attacks.
+- Do Not Rely on Cookies for Authorization:
+    - Cookies should not store sensitive or critical information like user roles or privileges that can be easily modified by the client.
+- Use Secure Tokens:
+    - Implement secure tokens, such as signed JWTs (JSON Web Tokens), which include integrity checks to prevent tampering.
+- Encrypt Sensitive Data:
+    - Avoid using weak hashes like MD5 for sensitive data. Use stronger algorithms like SHA-256 and always combine them with a salt to prevent dictionary attacks.
