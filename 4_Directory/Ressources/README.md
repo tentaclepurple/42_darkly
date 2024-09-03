@@ -20,11 +20,9 @@ To enhance my directory enumeration, I downloaded an updated wordlist for Gobust
 
 ### Solution:
 
-Protect Sensitive Files:
-
-    Issue: The htpasswd file was publicly accessible in the /whatever directory.
-    Solution: I should restrict access to sensitive files. Ensure that files containing authentication information or other sensitive data are stored in directories that are not publicly accessible.
-Implement Proper Access Controls:
-
-    Issue: Sensitive directories and files were exposed without proper access controls.
-    Solution: I need to implement proper access controls to ensure that sensitive areas of the application are only accessible to authorized users. Use web server configurations to restrict access to directories like /admin and files like htpasswd.
+- Protect Sensitive Files:
+    - Issue: The htpasswd file was publicly accessible in the /whatever directory.
+    - Solution: I should restrict access to sensitive files. Ensure that files containing authentication information or other sensitive data are stored in directories that are not publicly accessible.
+- Implement Proper Access Controls:
+    - Issue: Sensitive directories and files were exposed without proper access controls.
+    - Solution: I need to implement proper access controls to ensure that sensitive areas of the application are only accessible to authorized users. Use web server configurations to restrict access to directories like /admin and files like htpasswd.
